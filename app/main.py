@@ -7,8 +7,8 @@ from app.config import configuration
 
 application: FastAPI = FastAPI(title="CRUD Application")
 
-origins: list = [
-    "http://localhost"
+origins: list = [    
+    "*"
 ]
 application.add_middleware(
     CORSMiddleware,
