@@ -51,7 +51,7 @@ docker compose build
 docker compose up -d
 ```
 
-The API will be accessible on port `8000` by default (http://localhost:8000/).
+The API will be accessible on port `8000` by default (http://localhost:8000/). It is configurable.
 
 ### Code Structure
 
