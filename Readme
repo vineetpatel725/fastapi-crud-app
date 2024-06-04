@@ -1,0 +1,62 @@
+## FastAPI CRUD for Products (Dockerized)
+
+This is a basic CRUD (Create, Read, Update, Delete) application for managing products using FastAPI. The project is Dockerized for easy deployment.
+
+### Prerequisites
+
+* Python 3.10 or later
+
+### Getting Started
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/vineetpatel725/fastapi-crud-app.git
+```
+
+2. **Install dependencies:**
+
+```bash
+pip install requirements.txt
+```
+
+### Running the application
+
+**1. Using Docker:**
+
+This approach is recommended for a production-like environment.
+
+* Build the Docker image:
+
+```bash
+docker compose build
+```
+
+* Start the application and database:
+
+```bash
+docker compose up -d
+```
+
+The API will be accessible on port `8000` by default (http://localhost:8000/).
+
+**2. Manual setup (without Docker):**
+
+* (Optional) Create a virtual environment and activate it.
+* Install dependencies: `pip install requirements.txt`
+* Run the application: `start.sh`
+
+**3. Using the API:**
+
+Use tools like Postman or curl to interact with the API endpoints. Refer to the documentation within the code for specific API calls (e.g., creating, reading, updating, or deleting products).
+
+### Code Structure
+
+The core functionalities reside in these files:
+
+* `main.py`: Entry point for the FastAPI application.
+* `db.py`: Handles database connectivity.
+* `models/`: Defines the models.
+* `schemas/`: Defines data schemas for request and response data.
+* `routes/`: Defines the routes.
+* `config/`: Handles required configurations for application 
