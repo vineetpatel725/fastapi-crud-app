@@ -1,4 +1,4 @@
-## FastAPI CRUD for Products (Dockerized)
+## FastAPI CRUD for Products
 
 This is a basic CRUD (Create, Read, Update, Delete) application for managing products using FastAPI. The project is Dockerized for easy deployment.
 
