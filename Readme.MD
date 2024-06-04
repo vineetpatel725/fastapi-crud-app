@@ -19,7 +19,18 @@ git clone https://github.com/vineetpatel725/fastapi-crud-app.git
 ```bash
 pip install requirements.txt
 ```
-3. **Run Application without docker:**
+
+3. **Update database configuration in config(.ini)**
+
+```bash
+[database]
+host = Host
+port = Port
+name = Database
+username = Username
+password = Password
+```
+4. **Run Application without docker:**
 
 ```bash
 start.sh
